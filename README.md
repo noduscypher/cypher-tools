@@ -1,50 +1,32 @@
-# cypher-tools
+# CypherTools
 
-Applied cryptography notes, PGP tools, Templar cipher references and modern encryption practices.
+Applied cryptography notes, PGP tools, Templar cipher references and modern encryption practices. This repository is a living notebook of how I actually use encryption in day‑to‑day work: generating and managing keys, encrypting files and messages, and integrating modern tools into an off‑grid communication stack.
 
-## about
+## Contents
 
-This repository documents applied cryptography practices, tools and references
-used in secure communication, off-grid mesh networking and personal encryption workflows.
+- Practical notes on OpenPGP / GnuPG usage
+- Key management workflows (backup, revocation, subkeys)
+- File and message encryption with modern tools (age, minisign, etc.)
+- References to historical ciphers (e.g. Templar cipher) and their modern reinterpretations
+- Shell scripts and snippets that tie these tools into everyday use
 
-From historical Templar cipher traditions to modern PGP and asymmetric encryption —
-bridging the old and the new.
-These notes directly support my off-grid communication stack (Reticulum, NomadNet, Meshtastic and related tools), focusing on practical encryption workflows rather than academic theory.
+## Scope and philosophy
 
-## contents
+This is not a cryptography textbook.
 
-- `pgp/` — PGP key management, signing and encryption workflows
-- `templar/` — Templar cipher references and historical cryptographic systems
-- `tools/` — command line tools and scripts for encryption workflows
-- `notes/` — applied cryptography notes and references
+The focus here is:
 
-## tools & references
+- applied, **real** workflows that can be used today  
+- tools that run well on Unix‑like systems and low‑power hardware  
+- patterns that integrate cleanly with decentralised communication (Reticulum, NomadNet, LXMF, Meshtastic, etc.)  
 
-- GnuPG / PGP
-- OpenSSL
-- Reticulum (built-in encryption)
-- Age encryption
-- Historical cipher systems
+When in doubt, preference goes to simplicity, auditability and long‑term survivability of keys and data.
 
-## philosophy
+## Status
 
-Cryptography is not paranoia.
-It is the art of keeping signals meaningful
-only to those they are meant for.
+CypherTools is a personal reference that evolves over time as tools and practices change.  
+Expect incremental updates rather than big versioned releases.
 
-## status
+## License
 
-This is a living notebook of applied cryptography practices and tools.  
-Content may change as personal workflows evolve or new tools are tested.
-
-*The Templar knew this. The cypherpunks knew this. We bridge both.*
-
-## license
-
-Licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)
-
----
-
-*walk quietly, but keep the signal alive.*
-
-₿uilt with Love  🧡  in cooperation with Nature  🌿
+This project is distributed under the terms described in the `LICENSE` file in this repository.

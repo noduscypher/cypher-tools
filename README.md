@@ -9,6 +9,7 @@ used in secure communication, off-grid mesh networking and personal encryption w
 
 From historical Templar cipher traditions to modern PGP and asymmetric encryption —
 bridging the old and the new.
+These notes directly support my off-grid communication stack (Reticulum, NomadNet, Meshtastic and related tools), focusing on practical encryption workflows rather than academic theory.
 
 ## contents
 
@@ -30,6 +31,11 @@ bridging the old and the new.
 Cryptography is not paranoia.
 It is the art of keeping signals meaningful
 only to those they are meant for.
+
+## status
+
+This is a living notebook of applied cryptography practices and tools.  
+Content may change as personal workflows evolve or new tools are tested.
 
 *The Templar knew this. The cypherpunks knew this. We bridge both.*
 
